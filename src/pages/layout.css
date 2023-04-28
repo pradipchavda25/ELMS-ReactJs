@@ -1,0 +1,84 @@
+.btns {
+  display: flex !important;
+  text-decoration: none !important;
+  justify-content: center !important;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #f27e7e;
+}
+
+.css-19r6kue-MuiContainer-root {
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: black;
+}
+
+.css-1t6c9ts {
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: end;
+}
+
+.css-1t6c9ts button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-e {
+  color: rgb(161, 161, 161);
+}
+
+a:hover {
+  color: #ff6a6a !important;
+}
+
+.login-btn {
+  color: rgb(255, 255, 255) !important;
+  border: 0.5px solid white !important;
+  height: fit-content;
+  align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .login-btn {
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid black !important;
+  }
+
+  .logout-btn:hover {
+    background-color: #ff3737 !important;
+  }
+
+  .edit-btn:hover {
+    background-color: #0c7211 !important;
+  }
+}
+
+.logout-btn:hover {
+  background-color: #ff3737 !important;
+}
+
+.edit-btn:hover {
+  background-color: #0c7211 !important;
+}
+
+.btn-div {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #000000 !important;
+}
+.cartBtn{
+  display: flex !important;
+  justify-content: center !important;
+}
+.title-color{
+  color: white !important;
+}

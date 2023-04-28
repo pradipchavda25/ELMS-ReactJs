@@ -1,0 +1,22 @@
+.MDBBtn{
+    background-color: black !important;
+}
+.maincontainer {
+    width: 50% !important;
+    background-image: url('../../src/images/cool-background.svg');
+    border-radius: 15px;
+}
+@media only screen and (max-width: 770px) {
+    .maincontainer {
+        width: 100% !important;
+    }
+  }
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.submitbtn {
+    width: -webkit-fill-available;
+}

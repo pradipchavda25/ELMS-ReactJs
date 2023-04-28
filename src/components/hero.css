@@ -1,0 +1,117 @@
+.heromain{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+    /* background-image: url('../images/wave-haikei2.svg'); */
+
+}
+@media only screen and (max-width: 768px) {
+    .heromain{
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px 0px;
+        /* background-image: url('../images/wave-haikei2.svg'); */
+    }
+    .lefthero {
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 100% !important;
+        padding: 41px 10px !important;
+    }
+    .herotitle {
+        font-size: xx-large !important;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 500;
+        /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Abril Fatface', cursive;
+
+    }
+    .righthero{
+        display: none;
+    }
+    .subline {
+        width: 100% !important;
+    }
+  }
+.lefthero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 20px 0px;
+}
+.righthero{
+
+}
+
+.herotitle {
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Abril Fatface', cursive;
+
+    /* font-family: 'Berkshire Swash', cursive; */
+
+}
+.getstarted {
+    width: fit-content;
+    background-color: black !important;
+    padding: 13px 30px !important;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    text-transform: math-auto !important;
+    font-family: 'Alata', sans-serif !important;
+    margin-top: 25px !important;
+    
+}
+
+.subline {
+    color: #767676;
+    font-weight: 600;
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: auto;
+    display: flex;
+    font-family: 'Alata', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.heroimg {
+    height: 520px;
+    width: 100%;
+    background-repeat: no-repeat;
+}   
+.tutorial {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.playicon {
+    padding: 0 !important;
+    color: rgb(0, 0, 0) !important;
+}
+.playline{
+    margin-bottom: 0;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Alata', sans-serif !important;
+}
+.get_started{
+    color: white;
+}
+.get_started:hover{
+    color: white;
+}
